@@ -9,7 +9,7 @@ public class Solution {
         else{System.out.println("false");}
         input.close();
     }
-    private static boolean isPrime(int number){
+    public static boolean isPrime(int number){
         if (number < 2) {return false;}
         if (number == 2) {return true;}
         for(int i = 3; i <= Math.sqrt(number); i++){
